@@ -1,16 +1,17 @@
+import { LanguageSwitcher } from "@/components";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
+  const { t } = useTranslation();
   const [count, setCount] = useState(0);
 
   return (
     <>
       <section id="center">
         <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
+          <h1>{t("geral.loading")}</h1>
+          <LanguageSwitcher />
         </div>
         <button
           type="button"

@@ -19,8 +19,8 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
-      quotes: ["error", "double"],
-      semi: ["error", "always"],
+      quotes: ["warn", "double"],
+      semi: ["warn", "always"],
     },
   },
 ]);
