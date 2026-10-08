@@ -23,26 +23,23 @@
       "categoryId": "general",
       "difficulty": "easy",
       "question": "Qual é a capital de Portugal?",
+      "correctOptionId": "b",
       "options": [
         {
           "id": "a",
-          "text": "Porto",
-          "correct": false
+          "text": "Porto"
         },
         {
           "id": "b",
-          "text": "Lisboa",
-          "correct": true
+          "text": "Lisboa"
         },
         {
           "id": "c",
-          "text": "Coimbra",
-          "correct": false
+          "text": "Coimbra"
         },
         {
           "id": "d",
-          "text": "Braga",
-          "correct": false
+          "text": "Braga"
         }
       ]
     },
@@ -51,26 +48,23 @@
       "categoryId": "technology",
       "difficulty": "easy",
       "question": "O que significa HTML?",
+      "correctOptionId": "a",
       "options": [
         {
           "id": "a",
-          "text": "HyperText Markup Language",
-          "correct": true
+          "text": "HyperText Markup Language"
         },
         {
           "id": "b",
-          "text": "HighText Machine Language",
-          "correct": false
+          "text": "HighText Machine Language"
         },
         {
           "id": "c",
-          "text": "HyperTransfer Markup Language",
-          "correct": false
+          "text": "HyperTransfer Markup Language"
         },
         {
           "id": "d",
-          "text": "Home Tool Markup Language",
-          "correct": false
+          "text": "Home Tool Markup Language"
         }
       ]
     },
@@ -79,26 +73,23 @@
       "categoryId": "technology",
       "difficulty": "medium",
       "question": "Qual destas tecnologias é uma biblioteca JavaScript para construir interfaces de utilizador?",
+      "correctOptionId": "a",
       "options": [
         {
           "id": "a",
-          "text": "React",
-          "correct": true
+          "text": "React"
         },
         {
           "id": "b",
-          "text": "PostgreSQL",
-          "correct": false
+          "text": "PostgreSQL"
         },
         {
           "id": "c",
-          "text": "Docker",
-          "correct": false
+          "text": "Docker"
         },
         {
           "id": "d",
-          "text": "Nginx",
-          "correct": false
+          "text": "Nginx"
         }
       ]
     },
@@ -107,26 +98,23 @@
       "categoryId": "science",
       "difficulty": "easy",
       "question": "Qual é o planeta mais próximo do Sol?",
+      "correctOptionId": "c",
       "options": [
         {
           "id": "a",
-          "text": "Vénus",
-          "correct": false
+          "text": "Vénus"
         },
         {
           "id": "b",
-          "text": "Terra",
-          "correct": false
+          "text": "Terra"
         },
         {
           "id": "c",
-          "text": "Mercúrio",
-          "correct": true
+          "text": "Mercúrio"
         },
         {
           "id": "d",
-          "text": "Marte",
-          "correct": false
+          "text": "Marte"
         }
       ]
     },
@@ -135,26 +123,23 @@
       "categoryId": "history",
       "difficulty": "medium",
       "question": "Em que ano chegou a primeira expedição de Vasco da Gama à Índia?",
+      "correctOptionId": "b",
       "options": [
         {
           "id": "a",
-          "text": "1492",
-          "correct": false
+          "text": "1492"
         },
         {
           "id": "b",
-          "text": "1498",
-          "correct": true
+          "text": "1498"
         },
         {
           "id": "c",
-          "text": "1500",
-          "correct": false
+          "text": "1500"
         },
         {
           "id": "d",
-          "text": "1510",
-          "correct": false
+          "text": "1510"
         }
       ]
     },
@@ -163,26 +148,23 @@
       "categoryId": "general",
       "difficulty": "medium",
       "question": "Quantos lados tem um hexágono?",
+      "correctOptionId": "b",
       "options": [
         {
           "id": "a",
-          "text": "5",
-          "correct": false
+          "text": "5"
         },
         {
           "id": "b",
-          "text": "6",
-          "correct": true
+          "text": "6"
         },
         {
           "id": "c",
-          "text": "7",
-          "correct": false
+          "text": "7"
         },
         {
           "id": "d",
-          "text": "8",
-          "correct": false
+          "text": "8"
         }
       ]
     }
