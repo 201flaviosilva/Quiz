@@ -1,0 +1,190 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "Conhecimentos Gerais"
+    },
+    {
+      "id": "technology",
+      "name": "Tecnologia"
+    },
+    {
+      "id": "science",
+      "name": "Ciência"
+    },
+    {
+      "id": "history",
+      "name": "História"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "categoryId": "general",
+      "difficulty": "easy",
+      "question": "Qual é a capital de Portugal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porto",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lisboa",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Coimbra",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Braga",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "categoryId": "technology",
+      "difficulty": "easy",
+      "question": "O que significa HTML?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HyperText Markup Language",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "HighText Machine Language",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "HyperTransfer Markup Language",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Home Tool Markup Language",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "categoryId": "technology",
+      "difficulty": "medium",
+      "question": "Qual destas tecnologias é uma biblioteca JavaScript para construir interfaces de utilizador?",
+      "options": [
+        {
+          "id": "a",
+          "text": "React",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "PostgreSQL",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Docker",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nginx",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "categoryId": "science",
+      "difficulty": "easy",
+      "question": "Qual é o planeta mais próximo do Sol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vénus",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Terra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mercúrio",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Marte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "categoryId": "history",
+      "difficulty": "medium",
+      "question": "Em que ano chegou a primeira expedição de Vasco da Gama à Índia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1492",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1498",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1500",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1510",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "categoryId": "general",
+      "difficulty": "medium",
+      "question": "Quantos lados tem um hexágono?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "6",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "8",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
