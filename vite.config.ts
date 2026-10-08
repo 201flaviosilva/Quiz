@@ -1,13 +1,16 @@
 import babel from "@rolldown/plugin-babel";
 import react, { reactCompilerPreset } from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
+import { defineConfig } from "vitest/config";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    tsconfigPaths(),
-    react(),
-    babel({ presets: [reactCompilerPreset()] }),
-  ],
+  plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
+  resolve: {
+    tsconfigPaths: true,
+  },
+  test: {
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./src/test/setup.ts",
+  },
 });

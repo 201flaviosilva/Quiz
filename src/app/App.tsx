@@ -1,11 +1,9 @@
-import { AppRouter, AppThemeProvider, QueryProvider } from "./providers";
+import { AppProviders, AppRouter } from "./providers";
 
 export function App() {
   return (
-    <AppThemeProvider>
-      <QueryProvider>
-        <AppRouter />
-      </QueryProvider>
-    </AppThemeProvider>
+    <AppProviders>
+      <AppRouter />
+    </AppProviders>
   );
 }

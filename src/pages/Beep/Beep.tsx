@@ -12,17 +12,13 @@ export function BeepPage() {
   const { t } = useTranslation();
 
   return (
-    <>
-      <section id="center">
-        <div>
-          <h1>{t("geral.loading")}</h1>
-          <LanguageSwitcher />
-          <ThemeToggle />
-          <LoadingQuery />
-          <Question />
-        </div>
-      </section>
-    </>
+    <div>
+      <h1>{t("geral.loading")}</h1>
+      <LanguageSwitcher />
+      <ThemeToggle />
+      <LoadingQuery />
+      <Question />
+    </div>
   );
 }
 
