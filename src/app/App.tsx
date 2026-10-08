@@ -1,8 +1,8 @@
-import { LanguageSwitcher } from "@/components";
+import { LanguageSwitcher, ThemeToggle } from "@/components";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-export default function App() {
+export function App() {
   const { t } = useTranslation();
   const [count, setCount] = useState(0);
 
@@ -12,6 +12,7 @@ export default function App() {
         <div>
           <h1>{t("geral.loading")}</h1>
           <LanguageSwitcher />
+          <ThemeToggle />
         </div>
         <button
           type="button"
