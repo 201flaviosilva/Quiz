@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NotFoundPage > renders the page title 1`] = `
+<DocumentFragment>
+  <h2>
+    Error: Not Found - 404
+  </h2>
+</DocumentFragment>
+`;

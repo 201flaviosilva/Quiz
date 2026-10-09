@@ -1,0 +1,172 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "Conhecimentos Gerais"
+    },
+    {
+      "id": "technology",
+      "name": "Tecnologia"
+    },
+    {
+      "id": "science",
+      "name": "Ciência"
+    },
+    {
+      "id": "history",
+      "name": "História"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "categoryId": "general",
+      "difficulty": "easy",
+      "question": "Qual é a capital de Portugal?",
+      "correctOptionId": "b",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porto"
+        },
+        {
+          "id": "b",
+          "text": "Lisboa"
+        },
+        {
+          "id": "c",
+          "text": "Coimbra"
+        },
+        {
+          "id": "d",
+          "text": "Braga"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "categoryId": "technology",
+      "difficulty": "easy",
+      "question": "O que significa HTML?",
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "HyperText Markup Language"
+        },
+        {
+          "id": "b",
+          "text": "HighText Machine Language"
+        },
+        {
+          "id": "c",
+          "text": "HyperTransfer Markup Language"
+        },
+        {
+          "id": "d",
+          "text": "Home Tool Markup Language"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "categoryId": "technology",
+      "difficulty": "medium",
+      "question": "Qual destas tecnologias é uma biblioteca JavaScript para construir interfaces de utilizador?",
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "React"
+        },
+        {
+          "id": "b",
+          "text": "PostgreSQL"
+        },
+        {
+          "id": "c",
+          "text": "Docker"
+        },
+        {
+          "id": "d",
+          "text": "Nginx"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "categoryId": "science",
+      "difficulty": "easy",
+      "question": "Qual é o planeta mais próximo do Sol?",
+      "correctOptionId": "c",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vénus"
+        },
+        {
+          "id": "b",
+          "text": "Terra"
+        },
+        {
+          "id": "c",
+          "text": "Mercúrio"
+        },
+        {
+          "id": "d",
+          "text": "Marte"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "categoryId": "history",
+      "difficulty": "medium",
+      "question": "Em que ano chegou a primeira expedição de Vasco da Gama à Índia?",
+      "correctOptionId": "b",
+      "options": [
+        {
+          "id": "a",
+          "text": "1492"
+        },
+        {
+          "id": "b",
+          "text": "1498"
+        },
+        {
+          "id": "c",
+          "text": "1500"
+        },
+        {
+          "id": "d",
+          "text": "1510"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "categoryId": "general",
+      "difficulty": "medium",
+      "question": "Quantos lados tem um hexágono?",
+      "correctOptionId": "b",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ]
+    }
+  ]
+}
