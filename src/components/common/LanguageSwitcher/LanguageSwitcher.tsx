@@ -2,7 +2,7 @@ import { Languages } from "@/i18n";
 import { useTranslation } from "react-i18next";
 
 export function LanguageSwitcher() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const changeLanguage = (language: Languages) => {
     i18n.changeLanguage(language);
@@ -10,8 +10,12 @@ export function LanguageSwitcher() {
 
   return (
     <div>
-      <button onClick={() => changeLanguage(Languages.PT)}>PT</button>
-      <button onClick={() => changeLanguage(Languages.EN)}>EN</button>
+      <button onClick={() => changeLanguage(Languages.PT)}>
+        {t("language.pt")}
+      </button>
+      <button onClick={() => changeLanguage(Languages.EN)}>
+        {t("language.en")}
+      </button>
     </div>
   );
 }

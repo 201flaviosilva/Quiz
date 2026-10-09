@@ -1,2 +1,3 @@
-export * from "./en/translations.ts";
-export * from "./pt/translations.ts";
+export * from "./en.ts";
+export * from "./pt.ts";
+export { template as resources, type LocalsType } from "./template.ts";

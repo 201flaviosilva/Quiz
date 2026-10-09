@@ -1,4 +1,4 @@
-import { getQuestions } from "@/api/question";
+import { getQuestions } from "@/api";
 import { LanguageSwitcher, LoadingQuery, ThemeToggle } from "@/components";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect } from "react";
